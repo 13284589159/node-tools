@@ -1,0 +1,12 @@
+{
+  "name": "my-website",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "个人摄影作品网站（纯 HTML/CSS/JS，无构建依赖）",
+  "scripts": {
+    "fetch:images": "node tools/fetch-images.mjs",
+    "thumbs": "node tools/make-thumbs.mjs",
+    "serve": "node tools/serve.mjs"
+  }
+}
